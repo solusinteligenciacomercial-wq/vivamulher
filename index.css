@@ -19,13 +19,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(0,0,0,0.4); /* leve transparência sobre o fundo */
+  background: rgba(0,0,0,0.4);
   color: white;
   padding: 15px 30px;
 }
 
 .logo {
-  width: 60px;   /* tamanho pequeno do logo */
+  width: 60px;
   height: auto;
 }
 
@@ -53,7 +53,7 @@ nav ul li a {
 
 section {
   padding: 40px;
-  background: rgba(255,255,255,0.9); /* fundo branco translúcido para leitura */
+  background: rgba(255,250,240,0.95); /* branco quente translúcido */
   margin: 20px;
   border-radius: 10px;
 }
@@ -64,13 +64,26 @@ section {
   color: #e91e63;
 }
 
+.funcionalidade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* aproxima imagens do bloco */
+  margin-bottom: 30px;
+}
+
+.funcionalidade img.lado {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
 .bloco {
-  background: white;
+  background: #fffaf0; /* branco quente sólido */
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 20px;
-  margin: 20px auto;
-  max-width: 600px;
+  max-width: 400px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   text-align: center;
 }
